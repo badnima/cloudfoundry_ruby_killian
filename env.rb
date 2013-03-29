@@ -5,7 +5,7 @@ require 'pp'
 get '/' do
   host = ENV['VMC_APP_HOST']
   port = ENV['VMC_APP_PORT']
-  "<h1>Hello from the Cloud! via: #{host}:#{port}</h1>" +
+  "<h1>Hello from the the Cloud Foundry Sample App, hosted at: #{host}:#{port}</h1>" +
     "<p> See <a href=\"/env\">/env</a> for environment information</p"
 end
 
